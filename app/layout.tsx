@@ -19,7 +19,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Rishabh Goel - Portfolio",
-  description: "Researcher & Engineer",
+  description: "Researcher, Engineer, Student",
+  openGraph: {
+    images: [
+      {
+        url: "/og-image.png",
+      },
+    ],
+  },
 }
 
 export default function RootLayout({

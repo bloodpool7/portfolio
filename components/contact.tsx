@@ -108,11 +108,11 @@ export function Contact() {
             <div ref={infoRef} className="space-y-6">
               <div>
                 <h2 className="text-3xl font-bold text-foreground mb-4 text-balance font-[family-name:var(--font-display)]">
-                  Let's work together
+                  {`Let's work together`}
                 </h2>
                 <p className="text-muted-foreground leading-relaxed text-pretty">
-                  I'm always interested in hearing about new projects and opportunities. Whether you have a question or
-                  just want to say hi, feel free to reach out.
+                  {`I'm always interested in hearing about new projects and opportunities. Whether you have a question or
+                  just want to say hi, feel free to reach out.`}
                 </p>
               </div>
 
@@ -208,7 +208,7 @@ export function Contact() {
 
                   {submitStatus === "success" && (
                     <div className="p-3 rounded-lg bg-green-500/10 border border-green-500/20 text-green-500 text-sm">
-                      ✓ Message sent successfully! I'll get back to you soon.
+                      {`✓ Message sent successfully! I'll get back to you soon.`}
                     </div>
                   )}
 

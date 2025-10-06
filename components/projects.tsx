@@ -2,7 +2,6 @@
 
 import { Card } from "@/components/ui/card"
 import { ExternalLink, Github } from "lucide-react"
-import Image from "next/image"
 import { useEffect, useRef } from "react"
 
 const projects = [
@@ -23,7 +22,7 @@ const projects = [
     title: "Courseium",
     description: "Built a course recommender system for UCLA students using collaborative filtering, content-based filtering, and hybrid filtering. Trained on Bruin Walk with over 1000 courses saved.",
     tags: ["Tavily", "MongoDB", "MCP"],
-    link: "https://github.com/bloodpool7/CourseRecommenderSystem",
+    link: "https://devpost.com/software/courseium",
   },
   {
     title: "Quantum Cryptography Research",

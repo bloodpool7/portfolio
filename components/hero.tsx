@@ -74,11 +74,13 @@ export function Hero() {
           </h1>
 
           <p ref={subtitleRef} className="text-xl md:text-3xl text-accent font-light">
-            Researcher & Engineer
+            Researcher, Engineer, Student
           </p>
 
           <p ref={descRef} className="text-base md:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            I am a researcher and engineer at the intersection of AI and biology.
+          {`I like building things that are cool and functional. Check some of it out here. 
+          I'm currently working on DNA sequence generation using deep learning techniques. 
+          I'm also a computer science student at UCLA, so if you're ever in LA or want to talk about cool stuff, reach out`}
           </p>
 
           <div ref={navRef} className="flex gap-6 pt-4">

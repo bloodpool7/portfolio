@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
-      <About />
+      {/* <About /> */}
       <Experience />
       <Projects />
       <Contact />
